@@ -1,0 +1,65 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loan calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="input-group">
+            <h2>loan calculator</h2>
+            <label for="loan-amount">loan Aount</label>
+            <input type="text" name="loan-amount" id="interestRateInput" placeholder="Enter loan-amount">
+        </div>
+        <div class="input-group">
+            <label for="Intrest-Rate">Intrest Rate</label>
+            <input type="number" name="Intrest-Rate" id="IntrestRateInput" placeholder=" Enter Intrest-Rate">
+        </div>
+
+        <div class="input-group">
+            <label for="Loan-Term">Loan term (In Months)</label>
+            <input type="number" name="Loan-Term" id="loanTermInput" placeholder=" Enter Loan term">
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
+ -->
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Loan Calculator</title>
+   <link rel="stylesheet" href="index.css">
+ </head>
+ <body>
+   <div class="container">
+     <div class="calculator">
+       <div class="input-group">
+         <h2>Loan Calculator</h2>
+         <label for="loanAmountInput">Loan Amount</label>
+         <input type="text" name="loan-amount" id="loanAmountInput" placeholder="Enter Loan Amount">
+       </div>
+       <div class="input-group">
+         <label for="interestRateInput">Interest Rate (%)</label>
+         <input type="number" name="Intrest-Rate" id="interestRateInput" placeholder="Enter Interest Rate">
+       </div>
+       <div class="input-group">
+         <label for="loanTermInput">Loan Term (in Months)</label>
+         <input type="number" name="Loan-Term" id="loanTermInput" placeholder="Enter Loan Term">
+       </div>
+       <button onclick="calculateMonthlyPayment()">Calculate Monthly Payment</button>
+       <p id="result"></p>
+     </div>
+   </div>
+   <script src="script.js"></script>
+ </body>
+ </html>
+ 
